@@ -9,6 +9,7 @@
     color:white;
     display: flex;/* sob kisu nav bar ey automatically ft hoye jabe joto div achey*/
     align-items: center;
+    justify-content: space-evenly;
 
 }
 .nav-logo{
@@ -73,4 +74,16 @@
     align-items: center;
     font-size: 1.2rem;
     background-color: #febd68;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/*box4*/
+span{
+    font: size 0.7rem;
+    color: #cccccc;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
